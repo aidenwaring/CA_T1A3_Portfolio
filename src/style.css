@@ -8,8 +8,38 @@ body{
   font-size:1rem;
   line-height:1.5; /* Height inbetween lines */
   /* color:#333;  */
-  overflow-x:hidden;
+  /* overflow-x:hidden; */
 }
+
+/* Introduces flex box formatting for article tag */
+article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Formats each section with a box width and height */
+/* Aligns content to the middle vertically and horiz*/
+section{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#feature-1 {
+  background-color: #F5CF8E;
+}
+
+#feature-2 {
+  background-color: #F09A9D;
+}
+
+#feature-3 {
+  background-color: #C8C6FA;
+} 
 
 .v-header{
   height:100vh;
@@ -75,13 +105,3 @@ body{
   text-decoration: none;
 }
 
-/* Provides padding in between section top and bottom */
-.section{
-  padding:20px 0;
-}
-
-/* Different color for different section */
-.section-b{
-  background:#333;
-  color:#fff;
-}
