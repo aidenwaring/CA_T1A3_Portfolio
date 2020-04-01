@@ -97,13 +97,7 @@ section{
   height: 40%;
   padding-left: 5%;
   font-size: x-large;
-}
-
-#bio-middle2 {
-  width: 60%;
-  height: 40%;
-  padding-left: 5%;
-  font-size: x-large;
+  text-
 }
 
 #feature-1 {
@@ -117,8 +111,31 @@ section{
 
 #feature-3 {
   background-color: #C8C6FA;
-  padding-bottom: 5rem;
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .v-header{
   /* width: 1% */
@@ -139,7 +156,7 @@ section{
   top:0;
   left:0;
   width:100%;
-  height:90%;
+  height:100%;
   overflow:hidden;
 }
 
@@ -148,7 +165,7 @@ section{
   top:0;
   left:0;
   width:100%;
-  height:90vh;
+  height:1080px;
   overflow:hidden;
   background:#225470;
   opacity:0.85;
@@ -161,7 +178,7 @@ section{
 
 /* Styles I Am Aiden Waring */
 .header-content h1{
-  font-size:80px;
+  font-size:100px;
   /* margin-bottom:0;  */
 }
 
@@ -169,25 +186,20 @@ section{
 .header-content p{
   font-size:1.5rem;
   display:block;
-  padding-bottom:5rem;
+  padding-bottom:2rem;
 }
 
 /* Styles button */
- .btn{
+/* .btn{
   background: #34b3a0;
   color:#fff;
   font-size:1.2rem;
   padding: 1rem 2rem;
   text-decoration: none;
-}
+} */
 
 .lang {
   display: flex;
   justify-content: space-between;
   padding-bottom: 5%;
-}
-
-.btn a {
-  display: flex;
-  justify-content: center;
 }
