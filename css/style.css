@@ -133,6 +133,17 @@ section{
   text-align:center;
 }
 
+/* .header-overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:90%;
+  overflow:hidden;
+  background:#225470;
+  opacity:0.85;
+} */
+
 .fullscreen-video-wrap{
   position: absolute;;
   top:0;
@@ -140,17 +151,6 @@ section{
   width:100%;
   height:90%;
   overflow:hidden;
-}
-
-.header-overlay {
-  position: absolute;;
-  top:0;
-  left:0;
-  width:100%;
-  height:90vh;
-  overflow:hidden;
-  background:#225470;
-  opacity:0.85;
 }
 
 /* Makes text visible infront of video */
