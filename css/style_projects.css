@@ -5,7 +5,7 @@
 .banner {
   position: relative;
   z-index: 1;
-  background-color: white;
+  background-color: rgb(148, 148, 148);
   overflow: hidden;
 }
 
