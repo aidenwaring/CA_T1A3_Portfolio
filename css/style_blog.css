@@ -72,13 +72,54 @@ section{
 
 #bio-left {
   /* display: grid; */
-  width: 60%;
-  height: 40%;
   padding-left: 5%;
   padding-right: 5%;
   font-size: x-large;
   flex-direction: row;
 }
+
+#bio-right {
+  /* padding: 5% 5%; */
+  padding: 5%;
+}
+
+/* #bio-right img{
+  position: flex;
+  display: grid;
+  width: 300px
+  height: 300px
+  /* padding: 5% 5%; */
+  
+/* }  */
+
+#bio-middle {
+  width: 60%;
+  height: 40%;
+  padding-left: 5%;
+  font-size: x-large;
+}
+
+#bio-middle2 {
+  width: 60%;
+  height: 40%;
+  padding-left: 5%;
+  font-size: x-large;
+}
+
+#feature-1 {
+  background-color: #F5CF8E;
+  height: 80vh;
+}
+
+#feature-2 {
+  background-color: rgb(187, 187, 187);
+
+}
+
+#feature-3 {
+  background-color: #C8C6FA;
+  padding-bottom: 5rem;
+} 
 
 .v-header{
   /* width: 1% */
@@ -104,28 +145,18 @@ section{
   overflow:hidden;
 }
 
-.header-overlay {
-  position: absolute;;
-  top:0;
-  left:0;
-  width:100%;
-  height:90vh;
-  overflow:hidden;
-  background:#a9c4b7;
-  opacity:0.15;
-}
-
 /* Makes text visible infront of video */
 .header-content{
   text-shadow: black;
   z-index:2;
   text-shadow: 1px 1px 1px black;
+
 }
 
 /* Styles I Am Aiden Waring */
 .header-content h1{
   font-size:80px;
-  align-items: center;
+
   /* margin-bottom:0;  */
 }
 
@@ -136,78 +167,31 @@ section{
   padding-bottom:5rem;
 }
 
-section {
-  /* background-color: rgb(82, 209, 198); */
-  width: 100%;
-  height: 600%;
+/* Styles button */
+ .btn{
+  /* background: #34b3a0; */
+  color:black;
+  /* font-size:1.2rem; */
+  /* padding: 1rem 2rem; */
+  text-decoration: none;
+}
+
+.lang {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+
+.btn a {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding-bottom: 4rem;
-
+  padding-bottom: 50px;
 }
 
-/* Comment this out for mobile */
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 5vw);
-  grid-gap: 1.5rem; 
-  padding-bottom: 10rem;
+.btn p{
+  padding-left: 50px;
+  background-color: ivory;
 }
-
-.gallery__img {
-  width: 100%;
-  height: 120%;
-  object-fit: cover;
-  display: block; 
-  /* border-style: dashed;
-  border-color: black; */
-}
-
-.gallery__item--0 {
-  z-index: 3;
-  border-style: dashed;
-  border-color: black;
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.gallery__item--X {
-  z-index: 3;
-  border-style: dashed;
-  border-color: black;
-  grid-column-start: 5;
-  grid-column-end: 9;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  
-}
-
-.gallery__item--1 {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 9;
-  /* clip: 0px, 0px, 0px, 0px; */
-}
-
-.gallery__item--2 {
-  grid-column-start: 5;
-  grid-column-end: 9;
-  grid-row-start: 3;
-  grid-row-end: 9;
-}
-
-
 
 @media screen and (max-width: 2000px) {
   .lang p {
@@ -216,12 +200,13 @@ section {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 375px) {
   .v-header {
     padding: 0;
   }
   #bio-left {
     width: 100%;
+    padding-top: 10%;
   }
   #feature-2 {
     display: block;
@@ -232,10 +217,36 @@ section {
   #me {
     width: 335px;
   }
+
   .lang p {
     font-size: 4rem;
     margin: 0;
     padding-right: 20px;
   }
+
+  .menu {
+    display: flex;
+  }
+  
+  /* Styling for logo */
+  .banner p {
+    float: left;
+    padding-left: 5px;
+    font-style: italic;
+  }
+
+  .banner a {
+    float: left;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.btn p{
+  padding-left: 50px;
+  background-color: ivory;
+}
 
 }
