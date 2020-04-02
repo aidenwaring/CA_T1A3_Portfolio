@@ -177,8 +177,8 @@ section{
 
 /* Styles button */
  .btn{
-  background: #34b3a0;
-  color:#fff;
+  /* background: #34b3a0; */
+  color:black;
   /* font-size:1.2rem; */
   /* padding: 1rem 2rem; */
   text-decoration: none;
@@ -193,6 +193,12 @@ section{
 .btn a {
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
+}
+
+.btn p{
+  padding-left: 50px;
+  background-color: ivory;
 }
 
 @media screen and (max-width: 2000px) {
@@ -202,12 +208,13 @@ section{
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 375px) {
   .v-header {
     padding: 0;
   }
   #bio-left {
     width: 100%;
+    padding-top: 10%;
   }
   #feature-2 {
     display: block;
@@ -218,10 +225,36 @@ section{
   #me {
     width: 335px;
   }
+
   .lang p {
     font-size: 4rem;
     margin: 0;
     padding-right: 20px;
   }
+
+  .menu {
+    display: flex;
+  }
+  
+  /* Styling for logo */
+  .banner p {
+    float: left;
+    padding-left: 5px;
+    font-style: italic;
+  }
+
+  .banner a {
+    float: left;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.btn p{
+  padding-left: 50px;
+  background-color: ivory;
+}
 
 }
