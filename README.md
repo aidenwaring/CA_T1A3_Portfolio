@@ -37,6 +37,8 @@ The contact page lists how the user can reach out and contact me via a number of
 
 [Mobile Wireframe](https://www.figma.com/file/tE0URaHz00R3e58VTbRsMV/Portfolio-Wireframe-Tablet?node-id=0%3A1)
 
+[Tablet Wireframe](https://www.figma.com/file/tE0URaHz00R3e58VTbRsMV/Portfolio-Wireframe-Tablet?node-id=0%3A1)
+
 [Desktop Wireframe](https://www.figma.com/file/G9gMkNEV7sUvqE6oeEuesl/Portfolio-Wireframe-Desktop?node-id=0%3A1)
 
 ## Target Audience
