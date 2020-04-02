@@ -59,7 +59,7 @@ article {
 /* Aligns content to the middle vertically and horiz*/
 section{
   width: 100%;
-  height: 600%;
+  /* height: 600%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,8 +69,6 @@ section{
 
 #bio-left {
   /* display: grid; */
-  width: 60%;
-  height: 40%;
   padding-left: 5%;
   padding-right: 5%;
   font-size: x-large;
@@ -157,12 +155,16 @@ section{
 
 /* Makes text visible infront of video */
 .header-content{
+  text-shadow: black;
   z-index:2;
+  text-shadow: 1px 1px 1px black;
+
 }
 
 /* Styles I Am Aiden Waring */
 .header-content h1{
   font-size:80px;
+
   /* margin-bottom:0;  */
 }
 
@@ -177,8 +179,8 @@ section{
  .btn{
   background: #34b3a0;
   color:#fff;
-  font-size:1.2rem;
-  padding: 1rem 2rem;
+  /* font-size:1.2rem; */
+  /* padding: 1rem 2rem; */
   text-decoration: none;
 }
 
@@ -191,4 +193,34 @@ section{
 .btn a {
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 1080px) {
+  #bio-left {
+    /* width: 60%; */
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .v-header {
+    padding: 0;
+  }
+  #bio-left {
+    width: 100%;
+  }
+  #feature-2 {
+    display: block;
+  }
+  #feature-3 {
+    display: block;
+  }
+  #me {
+    width: 335px;
+  }
+  .lang p {
+    font-size: 4rem;
+    margin: 0;
+    padding-right: 20px;
+  }
+
 }
