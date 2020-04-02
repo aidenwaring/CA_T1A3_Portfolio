@@ -117,7 +117,9 @@ section{
 
 /* Makes text visible infront of video */
 .header-content{
+  text-shadow: black;
   z-index:2;
+  text-shadow: 1px 1px 1px black;
 }
 
 /* Styles I Am Aiden Waring */
@@ -203,4 +205,37 @@ section {
   grid-column-end: 9;
   grid-row-start: 3;
   grid-row-end: 9;
+}
+
+
+
+@media screen and (max-width: 2000px) {
+  .lang p {
+    font-size: 4rem;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .v-header {
+    padding: 0;
+  }
+  #bio-left {
+    width: 100%;
+  }
+  #feature-2 {
+    display: block;
+  }
+  #feature-3 {
+    display: block;
+  }
+  #me {
+    width: 335px;
+  }
+  .lang p {
+    font-size: 4rem;
+    margin: 0;
+    padding-right: 20px;
+  }
+
 }
